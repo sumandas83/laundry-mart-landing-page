@@ -1,0 +1,119 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    height: 10vh;
+    width: 100%;
+    padding: 0 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f5f5f5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2b7fff;
+}
+
+.logo img {
+    height: 40px; /* You can change this size */
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.nav-links li {
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-links li:hover {
+    color: #2b7fff;
+}
+
+.username {
+     font-weight: bold;
+    font-size: 1.1rem;
+    padding: 6px 15px;
+   /* border: 2px solid #2b7fff;*/ /* Light blue box */
+    
+    border-radius: 8px;         /* Smooth rounded corners */
+    background: #b8f9ff79;     
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    height: 90vh; /* fills remaining viewport */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+    /* margin-top: 10%; Adjusts for navbar height */
+
+}
+
+/* LEFT DIV */
+.hero-left {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.hero-left h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #003c8f;
+    /* margin-top: -0px; */
+}
+
+.hero-left p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #333;
+    padding-right: 10%;
+}
+
+.cta-btn {
+    padding: 12px 25px;
+    border: none;
+    background: #2b7fff;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #3ac6e5;
+}
+
+/* RIGHT DIV */
+.hero-right {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+
+.hero-right img {
+    max-height: 70vh;
+    width: auto;
+    /* border-radius: 15px; */
+    /* border-color: black; */
+}
